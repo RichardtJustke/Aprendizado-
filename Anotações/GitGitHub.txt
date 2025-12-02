@@ -1,0 +1,42 @@
+# Git
+
+O que é o git: e um sistema de controle de versão distribuído, usado para rastrear mudanças em arquivos e coordenar o trabalho em projetos de desenvolvimento de software entre várias pessoas.
+
+Usando o git: temos como se fosse uma linha do tempo onde podemos voltar para versões anteriores do nosso projeto, ver quem fez quais mudanças e quando, e colaborar com outros desenvolvedores de forma eficiente.
+
+Commit e basicamente e o historico de versões do projeto
+Branch e basicamente uma ramificação do projeto onde provalvelmnete se queira adiconar algo mas sem afetar a linha principal depois podendo fazer um 'merge' para juntar todos o branchs
+
+# GitHub
+
+O que é o GitHub: e uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git. Ele permite que desenvolvedores colaborem em projetos, compartilhem código e gerenciem versões de software de forma eficiente.
+
+Usando o GitHub: podemos criar repositórios para armazenar nossos projetos, colaborar com outros desenvolvedores por meio de pull requests, rastrear problemas e documentar nosso código usando wikis e arquivos README.
+
+
+# Comandos basicos do Git
+
+git init: Inicializa um novo repositório Git.
+git status: Exibe o status dos arquivos no repositório.
+git add <arquivo>: Adiciona um arquivo específico à área de stage.
+git add .: Adiciona todos os arquivos modificados à área de stage.
+git commit -m "mensagem": Cria um commit com uma mensagem descritiva.
+git log: Exibe o histórico de commits.
+git log --all: Exibe o histórico de todos os branches.
+git checkout <branch>: Muda para a branch especificada.
+git checkout -b <nova-branch>: Cria e muda para uma nova branch.
+git branch: Lista todas as branches no repositório.
+git branch -d <branch>: Deleta a branch especificada.
+git merge <branch>: Mescla a branch especificada na branch atual.
+
+git remote add origin <url>: Adiciona um repositório remoto.
+git branch -M main: Renomeia a branch atual para "main".
+git push -u origin <branch>: Envia os commits da branch local para o repositório remoto.
+git pull origin <branch>: Puxa as mudanças do repositório remoto para a branch local.
+
+git push: Envia as mudanças locais para o repositório remoto.
+git pull: Puxa as mudanças do repositório remoto para o repositório local.
+
+git clone <url>: Clona um repositório remoto para o local.
+
+Em projetos em parceria com outras pessoas vamos ter que fazer um processo fazendo um fork do repositorio original e depois clonar o repositorio forkado para nossa maquina local fazendo o processo de clonagem de novo, quando fgazemos uma modificação desse modo o github vai sisponibilizar uma opção de pull request para que possamos solicitar a inclusão das nossas modificações no repositorio original.
