@@ -1,0 +1,169 @@
+# 🧾 O que é Markdown?
+
+É uma linguagem **simples de formatação de texto** usada pra:
+
+* README de projetos
+* Documentação
+* Notion
+* GitHub
+* Blogs
+* Anotações técnicas
+
+Tu escreve **rápido, limpo e bonito** sem precisar de botão nenhum. Só teclado e fé.
+
+---
+
+# 🏷️ Títulos (Headings)
+
+```md
+# Título nível 1
+## Título nível 2
+### Título nível 3
+#### Título nível 4
+```
+
+📌 Quanto mais `#`, menor o título.
+
+---
+
+# ✍️ Texto Básico
+
+```md
+**Negrito**
+*Itálico*
+~~Riscado~~
+```
+
+Resultado:
+**Negrito**
+*Itálico*
+~~Riscado~~
+
+---
+
+# 🔗 Links
+
+```md
+[Texto do link](https://site.com)
+```
+
+👉 Ex:
+[Google](https://google.com)
+
+---
+
+# 🖼️ Imagens
+
+```md
+![Texto alternativo](https://link-da-imagem.com)
+```
+
+---
+
+# ✅ Listas
+
+### Lista normal
+
+```md
+- Item
+- Item
+- Item
+```
+
+### Lista numerada
+
+```md
+1. Item
+2. Item
+3. Item
+```
+
+### Lista de tarefas (checkbox)
+
+```md
+- [x] Feito
+- [ ] Não feito
+```
+
+---
+
+# 💻 Código
+
+### Código inline
+
+```md
+Use o comando `git status`
+```
+
+### Bloco de código
+
+````md
+```js
+console.log("Hello World");
+````
+
+````
+
+(sem as aspas externas, claro 😅)
+
+---
+
+# 📦 Citação (Quote)
+```md
+> Isso é uma citação
+````
+
+---
+
+# 📏 Linha divisória
+
+```md
+---
+```
+
+---
+
+# 📊 Tabelas
+
+```md
+| Nome | Idade | Profissão |
+|------|--------|-----------|
+| Justke | 20 | Designer |
+| Samara | 21 | Braba |
+```
+
+---
+
+# 📁 Como normalmente se usa no GitHub:
+
+```md
+# Nome do Projeto
+
+## Descrição
+Texto explicando o projeto
+
+## Tecnologias
+- HTML
+- CSS
+- JS
+
+## Como rodar
+1. Clone o projeto
+2. Abra o index.html
+```
+
+---
+
+# 🧠 Resumo mental rápido:
+
+| O que você quer | O que usar     |
+| --------------- | -------------- |
+| Título          | `#`            |
+| Negrito         | `**texto**`    |
+| Itálico         | `*texto*`      |
+| Lista           | `- item`       |
+| Link            | `[texto](url)` |
+| Código          | ` `            |
+| Linha           | `---`          |
+
+---
