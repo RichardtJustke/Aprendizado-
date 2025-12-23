@@ -288,4 +288,11 @@ de múltiplas linhas
 
 ---
 
+# funções 
+usando a anologia de uma fabrica onde voce faz a entrada e ele te da uma saida 
+uma função js é execuitada quando algo a invoca(chama-a)
 
+chamso ela por meio  de uma 
+function  nomeDaVariavel((Valores dela)){
+  
+}
