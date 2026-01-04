@@ -1,0 +1,41 @@
+.btn-moderno {
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 32px;
+  color: #ffffff;
+  
+  /* Cores e Fundo */
+  background: linear-gradient(135deg, #a900b5, #fd5400);
+  border-radius: 50px; 
+  
+  /* Sombras e Efeitos */
+  box-shadow: 0 4px 15px rgba(110, 142, 251, 0.4);
+  transition: all 0.3s ease; 
+}
+
+
+.btn-moderno:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(110, 142, 251, 0.6);
+  filter: brightness(1.1);
+}
+
+
+.btn-moderno:active {
+  transform: translateY(-1px); 
+}
+body {
+  margin: 0;                
+  display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  min-height: 100vh;         
+  background-color: #f4f4f9; 
+}
