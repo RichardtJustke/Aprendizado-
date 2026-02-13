@@ -1,9 +1,13 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
-	for i:=0; i<6; i++ {
-		fmt.Println(i)
+	users := 0
+	for i := 0; i < 6; i++ {
+		users++
+		fmt.Println("Usuários conectados:", users)
 	}
+	fmt.Println("Sistema pronto")
 }
+

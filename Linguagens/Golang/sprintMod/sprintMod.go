@@ -8,6 +8,13 @@ func main() {
 	users := 0
 	isOnline := true
 
-	text := fmt.Sprintf("O projeto %s tem %d usuarios e ele está onlone: %s", projetctName, users, isOnline) //usando a "função fmt.Sprintf"
+	text := fmt.Sprintf("O projeto %s tem %d usuarios e ele está onlone: %t", projetctName, users, isOnline) //usando a "função fmt.Sprintf"
 	fmt.Println(text)
 }
+
+//formatação do fmt
+//%s string
+//%d inteiro
+//%f float
+//%t bool
+//%v qualquer um
